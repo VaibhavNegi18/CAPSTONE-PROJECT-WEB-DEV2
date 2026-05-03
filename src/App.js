@@ -26,7 +26,7 @@ import { UserLogin } from "./pages/User/UserLogin";
 import { UserRegister } from "./pages/User/UserRegister";
 import { PrivateRoute } from "./routes/admin/PrivateRoute";
 import { PublicRoute } from "./routes/admin/PublicRoute";
-import { UserPrivateRoute } from "./routes/user/UserPrivateRoute";
+import UserPrivateRoute from "./routes/user/UserPrivateRoute";
 import { UserPublicRoute } from "./routes/user/UserPublicRoute";
 
 function App() {
