@@ -3,14 +3,10 @@ import { ProductCardSkeleton } from "../../../components/ui/ProductCardSkeleton"
 import { ContainerHeader } from "../../../components/user/ContainerHeader";
 import { ProductCard } from "../../../components/user/ProductCard";
 import { useGetFeatureProductsQuery } from "../../../features/product/productApi";
+import { products } from "../../../mock/data";
 
 export const FeaturedProduct = () => {
-  const {
-    data: products,
-    isLoading,
-    isSuccess,
-    isError,
-  } = useGetFeatureProductsQuery();
+  const data = products;
 
   // decide what to render
   let content;
