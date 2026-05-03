@@ -1,19 +1,29 @@
 export const products = [
   {
-    id: 1,
-    title: "iPhone 14",
+    _id: "1",
+    name: "iPhone 14",
     price: 999,
-    thumbnail: "https://via.placeholder.com/200"
+    description: "Latest iPhone model",
+    picture: "https://dummyjson.com/image/i/products/1/thumbnail.jpg"
   },
   {
-    id: 2,
-    title: "Nike Shoes",
+    _id: "2",
+    name: "Nike Shoes",
     price: 199,
-    thumbnail: "https://via.placeholder.com/200"
+    description: "Comfortable running shoes",
+    picture: "https://dummyjson.com/image/i/products/2/thumbnail.jpg"
   }
 ];
 
 export const categories = [
-  { id: 1, name: "Electronics" },
-  { id: 2, name: "Fashion" }
+  {
+    _id: "1",
+    name: "Electronics",
+    picture: "https://dummyjson.com/image/i/products/1/thumbnail.jpg"
+  },
+  {
+    _id: "2",
+    name: "Fashion",
+    picture: "https://dummyjson.com/image/i/products/2/thumbnail.jpg"
+  }
 ];
